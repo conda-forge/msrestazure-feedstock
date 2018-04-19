@@ -14,12 +14,15 @@ Summary: The runtime library "msrestazure" for AutoRest generated Python clients
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/msrestazure-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/msrestazure-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/msrestazure-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/msrestazure-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/msrestazure/badges/version.svg)](https://anaconda.org/conda-forge/msrestazure)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/msrestazure/badges/downloads.svg)](https://anaconda.org/conda-forge/msrestazure)
+[![Conda Recipe](https://img.shields.io/badge/recipe-msrestazure-green.svg)](https://anaconda.org/conda-forge/msrestazure)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure)
 
 Installing msrestazure
 ======================
