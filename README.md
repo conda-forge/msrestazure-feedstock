@@ -19,10 +19,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-msrestazure-green.svg)](https://anaconda.org/conda-forge/msrestazure)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-msrestazure-green.svg)](https://anaconda.org/conda-forge/msrestazure) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/msrestazure.svg)](https://anaconda.org/conda-forge/msrestazure) |
 
 Installing msrestazure
 ======================
