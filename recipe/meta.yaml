@@ -1,6 +1,6 @@
 {% set name = "msrestazure" %}
-{% set version = "0.4.34" %}
-{% set sha256 = "4fc94a03ecd5b094ab904d929cc5be7a6a80262eab93948260cfe9081a9e6de4" %}
+{% set version = "0.5.1" %}
+{% set sha256 = "fd1bcb9652cf04b711e21dcbef377a7e43f9492afeb0a59622b5623ce8715825" %}
 
 package:
   name: {{ name|lower }}
