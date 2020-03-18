@@ -1,6 +1,6 @@
 {% set name = "msrestazure" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "fecb6a72a3eb5483e4deff38210d26ae42d3f6d488a7a275bd2423a1a014b22c" %}
+{% set version = "0.6.3" %}
+{% set sha256 = "0ec9db93eeea6a6cf1240624a04f49cd8bbb26b98d84a63a8220cfda858c2a96" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -26,7 +26,7 @@ requirements:
     - msrest >=0.4.25
     - keyring >=5.6
     - adal >=0.5.0
-    
+
 test:
   imports:
     - msrestazure
@@ -39,7 +39,7 @@ about:
   license: MIT
   license_family: MIT
   summary: The runtime library "msrestazure" for AutoRest generated Python clients
-  
+
 extra:
   recipe-maintainers:
     - ivoflipse
