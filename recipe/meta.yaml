@@ -1,6 +1,6 @@
 {% set name = "msrestazure" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "fecb6a72a3eb5483e4deff38210d26ae42d3f6d488a7a275bd2423a1a014b22c" %}
+{% set version = "0.6.4" %}
+{% set sha256 = "a06f0dabc9a6f5efe3b6add4bd8fb623aeadacf816b7a35b0f89107e0544d189" %}
 
 package:
   name: {{ name|lower }}
@@ -14,19 +14,19 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - setuptools
     - pip
   run:
-    - python
-    - msrest >=0.4.25
-    - keyring >=5.6
-    - adal >=0.5.0
-    
+    - python >=3.6
+    - adal >=0.6.0,<2.0.0
+    - msrest >=0.6.0,<2.0.0
+    - six
+
 test:
   imports:
     - msrestazure
@@ -38,4 +38,9 @@ about:
   home: https://github.com/Azure/msrestazure-for-python
   license: MIT
   license_family: MIT
+  license_file: LICENSE.md
   summary: The runtime library "msrestazure" for AutoRest generated Python clients
+
+extra:
+  recipe-maintainers:
+    - dhirschfeld
