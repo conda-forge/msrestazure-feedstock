@@ -5,11 +5,9 @@ Home: https://github.com/Azure/msrestazure-for-python
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/msrestazure-feedstock/blob/master/LICENSE.txt)
 
 Summary: The runtime library "msrestazure" for AutoRest generated Python clients
-
-
 
 Current build status
 ====================
@@ -116,4 +114,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@dhirschfeld](https://github.com/dhirschfeld/)
 
