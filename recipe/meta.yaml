@@ -39,3 +39,7 @@ about:
   license: MIT
   license_family: MIT
   summary: The runtime library "msrestazure" for AutoRest generated Python clients
+
+extra:
+  recipe-maintainers:
+    - dhirschfeld
