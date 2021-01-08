@@ -18,14 +18,14 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - setuptools
     - pip
   run:
-    - python
-    - msrest >=0.4.25
-    - keyring >=5.6
-    - adal >=0.5.0
+    - python >=3.6
+    - adal >=0.6.0,<2.0.0
+    - msrest >=0.6.0,<2.0.0
+    - six
 
 test:
   imports:
